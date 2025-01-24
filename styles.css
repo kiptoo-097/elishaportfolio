@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #004d40; /* Dark green */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #b2dfdb; /* Light green */
+}
+
+/* Increase font size and space nav items */
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Center nav items in toggled state */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        display: block;
+        margin: auto;
+    }
+    .nav-item {
+        display: inline-block;
+        margin: 10px 0;
+    }
+}
+
+footer {
+    background-color: #004d40; /* Dark green */
+    color: #fff;
+}
+
+footer h5 {
+    color: #b2dfdb; /* Light green */
+}
+
+footer a {
+    color: #b2dfdb; /* Light green */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #80cbc4; /* Lighter green */
+    text-decoration: underline;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+
+#home {
+    background: #004d40; /* Dark green */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #004d40; /* Dark green */
+}
+
+
+
+footer {
+    background-color: #004d40; /* Dark green */
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #004d40;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #00796b; /* Medium green */
+}
+
+/* Profile picture adjustments */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 767.98px) {
+    .img-fluid {
+        width: 200px;
+        height: 200px;
+    }
+}
+h5{
+    font-weight: bold;
+    text-decoration: underline;
+}
